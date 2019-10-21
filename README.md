@@ -7,6 +7,7 @@ This depository contains an MATLAB implementation of the aforementioned iES, whi
 To run the codes, here I assume that the depository is downloaded into a local computer (and unzipped, if applicable). In this case, please open MATLAB, navigate to the folder "run_example/L96/", and run the following commands
 
 >> [modelInfo,obvInfo,methodInfo] = setupCase();
+
 >> output = iES(modelInfo,obvInfo,methodInfo);
 
 The MATLAB structure variable "output" contains certain information regarding the experiment results. For instance, we can see it by typing

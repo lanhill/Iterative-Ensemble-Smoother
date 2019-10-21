@@ -38,4 +38,4 @@ This depository is made available and contributed to under the license that incl
 
 The code may include mistakes, and can’t address every situation. If there is any question, we encourage you to do your own research, discuss with your community or contact us. 
 
-All views expressed here are from the contributors, and do not represent the opinions of any entities with which the contributors have been, are now or will be affiliated with. 
+All views expressed here are from the contributors, and do not represent the opinions of any entities with which the contributors have been, are now or will be affiliated. 

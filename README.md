@@ -34,8 +34,8 @@ The depository contains four folders, namely, "DA", "models", "run_example", "ut
 Based on the template provided in the depository, it would be possible to expand it to other dynamical systems or assimilation algorithms. 
 
 # Disclaimer
-This depository is made available and contributed to under the license that include terms that, for the protection of the contributor, make clear that the depository is offered “as-is”, without warranty, and disclaiming liability for damages resulting from using the depository. This guide is no different. The open content license it is offered under includes such terms.
+This depository is made available and contributed to under the license that include terms that, for the protection of the contributors, make clear that the depository is offered “as-is”, without warranty, and disclaiming liability for damages resulting from using the depository. This guide is no different. The open content license it is offered under includes such terms.
 
-The code may include mistakes, and can’t address every situation. If there is any question, we encourage you to do your own research, discuss with your community or contact me. 
+The code may include mistakes, and can’t address every situation. If there is any question, we encourage you to do your own research, discuss with your community or contact us. 
 
-All views expressed here are my own, and do not represent the opinions of any entities with which I have been, am now or will be affiliated with. 
+All views expressed here are from the contributors, and do not represent the opinions of any entities with which the contributors have been, are now or will be affiliated with. 

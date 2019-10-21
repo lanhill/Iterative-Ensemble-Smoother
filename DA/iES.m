@@ -245,6 +245,8 @@ while (iter < maxOuterIter) && (obj > objThreshold)
             myDisplay(['        reducing Lambda to ',num2str(lambda)],isDisplay);
             
             iter=iter+1;
+            outer_simData_name = [simData_dir '/simData','-iter',num2str(iter),'.mat'];
+            outer_objReal_name = [obj_dir '/objReal', '-iter',num2str(iter),'.mat'];
             
             % save files
             % 1) entire ensemble of model varialbes

@@ -25,7 +25,7 @@ output =
            iter: 16
     elapsedTime: 5.9519
 
-More experiment results are saved in the sub-folder "run_example/L96/results/".
+More experiment results will be automatically saved in the sub-folder "run_example/L96/results/".
 
 # An uninformative introduction
 The depository contains four folders, namely, "DA", "models", "run_example", "utilities". "DA" contains data assimilation algorithms ("iES.m"); "models" contains models for assimilation ("L96" for the Lorentzen 96 model); "run_example" contains scripts to set up the experiment (e.g., "setupCase.m" under the sub-folder "run_example/L96/"), and is also used to save experiment results (e.g., "run_example/L96/results/"); and "utilities" contains certain scripts needed to run the code.

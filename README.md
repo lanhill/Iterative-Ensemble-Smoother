@@ -1,7 +1,7 @@
 # Iterative-Ensemble-Smoother
 An iterative ensemble smoother (iES) based on regularized Levenburg-Marquardt, see the paper "Iterative Ensemble Smoother as an Approximate Solution to a Regularized Minimum-Average-Cost Problem: Theory and Applications ", by Luo et al., SPE-176023-PA, https://doi.org/10.2118/176023-PA
 
-This depository contains an MATLAB implementation of the aforementioned iES, which is mostly used in ensemble-based reservoir data assimilation (also known as history matching) problems. Our main purpose here is to indicate how this iES is actually implemented in our in-house history matching workflow. To this end, we apply this iES to estimate initial conditions of the Lorentzen 96 model, as was done in the paper SPE-176023-PA.  
+This depository contains an MATLAB implementation of the aforementioned iES, which is most of the time used in ensemble-based reservoir data assimilation (also known as history matching) problems. Our main purpose here is to indicate how this iES is actually implemented in our in-house history matching workflow. To this end, we apply this iES to estimate initial conditions of the Lorentzen 96 model, as was done in the paper SPE-176023-PA.  
 
 # A quick start
 To run the codes, here I assume that the depository is downloaded into a local computer (and unzipped, if applicable). In this case, please open MATLAB, navigate to the folder "run_example/L96/", and run the following commands

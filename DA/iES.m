@@ -171,7 +171,7 @@ while (iter < maxOuterIter) && (obj > objThreshold)
     
     %-- initialization of the inner loop --%
     iterLambda=1;
-
+    
     %-- inner iteration loop --%
     while iterLambda < maxInnerIter
         
@@ -245,6 +245,7 @@ while (iter < maxOuterIter) && (obj > objThreshold)
             myDisplay(['        reducing Lambda to ',num2str(lambda)],isDisplay);
             
             iter=iter+1;
+            
             outer_simData_name = [simData_dir '/simData','-iter',num2str(iter),'.mat'];
             outer_objReal_name = [obj_dir '/objReal', '-iter',num2str(iter),'.mat'];
             
@@ -286,7 +287,7 @@ while (iter < maxOuterIter) && (obj > objThreshold)
     if iterLambda >= maxInnerIter
         
         lambda = lambda * lambda_increment_factor;
-        if lambda < init_lambda;
+        if lambda < init_lambda
             lambda = init_lambda;
         end
         
@@ -335,9 +336,7 @@ end
 %---------------------%
 
 %-- mean trajectory and obs --%
-for i = 1 : size(ensemble,2)
-    [meanObs,meanTrajectory] = funcGetSimData(modelInfo,obvInfo,ensemble(:,ne+1));
-end
+[meanObs,meanTrajectory] = funcGetSimData(modelInfo,obvInfo,ensemble(:,ne+1));
 rmse_dir = './rmse';
 if  ~exist(rmse_dir,'dir')
     mkdir(rmse_dir);
